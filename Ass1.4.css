@@ -1,0 +1,69 @@
+
+body{
+  background:rgb(136, 168, 180);
+}
+
+h1{
+  margin-top:20px;
+  text-align:center;
+}
+.blog{
+  padding:15px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  
+.card{
+    max-width:300px;
+    margin:15px;
+    background:white;
+    border:1px solid rgb(190, 46, 102);
+    text-align:center;
+.img{
+      position:relative;
+      text-align:center;
+      background:rgb(190, 46, 102);
+      img{
+        max-height:200px;
+        width:100%;
+        border-bottom:5px solid rgb(190, 46, 102);
+      }
+      h1{
+        position:absolute;
+        margin:0;
+        font-size:42px;
+        bottom:15px;
+        width:100%;
+        color:white;
+        font-family: serif;
+      }
+    }
+    .dnh{
+      margin-top:30px;
+      font-family: sans-serif;
+      color:#3C3C3C;
+      span{   
+        padding:0 25px;
+        i{
+          margin-right:5px;
+        }
+        
+      }
+    }
+    .text{
+      padding:25px 15px;
+      font-family: sans-serif;
+      line-height:22px;
+    }
+    .readmore{
+      display:inline-block;
+      width:auto;
+      text-align:center;
+      background:rgb(190, 46, 102);
+      color:white;
+      padding:15px;
+      margin-bottom:30px;
+      
+    }
+}
+}
